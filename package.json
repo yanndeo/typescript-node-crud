@@ -8,7 +8,8 @@
     "public": "ncp ./src/public/ ./dist/public/",
     "hbscopy": "ncp ./src/views/ ./dist/views/",
     "clean": "rimraf ./dist",
-    "build":"npm run clean && tsc && npm run hbscopy && npm run public"
+    "build":"npm run clean && tsc && npm run hbscopy && npm run public",
+    "start": "node dis/index.js"
   },
   "keywords": [],
   "author": "",
